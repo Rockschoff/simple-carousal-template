@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.carousal-wrapper {
+  height: 50vh;
+  width: 100vw;
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousal-container {
+  aspect-ratio: 1/1;
+
+  height: 80%;
+  background-color: lavenderblush;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition: 500ms;
+  overflow: hidden;
+}
+
+.carousal-container > img {
+  height: 100%;
+}
+
+.carousal-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
